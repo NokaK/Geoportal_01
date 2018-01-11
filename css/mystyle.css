@@ -132,7 +132,7 @@
 
 }
 
-@media (max-width: 990px){
+@media (max-width: 991px){
 	.ml-5.last22{
 		margin-left: 0!important;
 	}
@@ -143,13 +143,15 @@
 		color: #ffffff;
 		background-color:inherit;
 		border-radius: 0px;
-		
  	}  
  	.category{
 		top: 65%;
 	}
 	.main-name{
 		margin-top: 1%;
+	}
+	.search{
+		margin-top:2%;
 	}
 
 }
