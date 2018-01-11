@@ -120,15 +120,16 @@
 		font-size:13px;
 		word-wrap: break-word;
 		height: 100px;
-		padding:20px 10px;
+		padding:20px 4px;
 	}
 	.main-name{
 		margin-top: 5%;
 	}
 
+
 }
 
-@media (max-width: 1000px){
+@media (max-width: 990px){
 	.ml-5.last22{
 		margin-left: 0!important;
 	}
@@ -136,7 +137,13 @@
 		color: #ffffff;
 		background-color:inherit;
 		border-radius: 0px;
- }
+ 	}  
+ 	.category{
+		top: 65%;
+	}
+	.main-name{
+		margin-top: 1%;
+	}
 
 }
 @media (max-width: 770px){
@@ -144,8 +151,8 @@
 	 opacity: 1;
 	 border-radius:20px;
 	 transform: scale(1.0,1.0);
-	 font-size: 25px;	
-}
+	 font-size: 20px;	
+	}
 }
 
 
