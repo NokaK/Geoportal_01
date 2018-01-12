@@ -10,11 +10,11 @@
 	position: relative;
 }
 .bg2{
-	background-image: url('../img/background2.png');
+	background-image: url('../img/animation.gif');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 900px;
+	height: 650px;
 	width: 100%;
 	margin-top:5%;
 	position: relative;
