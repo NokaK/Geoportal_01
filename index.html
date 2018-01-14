@@ -10,101 +10,117 @@
   <link rel="stylesheet" href="fonts/bpg-arial-caps-master/bpg-arial-caps-master/css/bpg-arial-caps.min.css">
 </head>
 <body>
- <header >
+ <header>
  	<nav class=" navbar navbar-expand-lg  fixed-top nav-color">
     <div class="container">
   <a class="navbar-brand color" href="#">Logo</a>
     <button class="navbar-toggler burger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
     <span class="navbar-toggler-icon " style="width: 2.5em;height: 2.5em;"><i class="fa fa-bars " aria-hidden="true" style="  font-size: 46px;"></i></span>
   </button>
-  <div class=" collapse navbar-collapse justify-content-end font" id="navbarSupportedContent">
-    <ul class="navbar-nav ">
-      <li class="nav-item ">
-        <a class="nav-link font a-color line" href="#category"><i class="fa fa-home mr-2 line" aria-hidden="true"></i>კატეგორიები</a>
+  <div class=" collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link  a-color" href="#category">კატეგორიები</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link a-color line" href="#about"><i class="fa fa-bars mr-2 line" aria-hidden="true"></i>შესახებ</a>
+        <a class="nav-link a-color" href="#about">შესახებ</a>
       </li>   
       <li class="nav-item">
-        <a class="nav-link a-color line" href="#"><i class="fa fa-internet-explorer mr-1 line" aria-hidden="true"></i> ბლოგი</a>
+        <a class="nav-link a-color" href="#">ბლოგი</a>
       </li>
     </ul>
-    <ul class="navbar-nav ml-5 last22">
-    	<li class="nav-item">
-        	<a class="nav-link a-color line" href="#"><i class="fa fa-user mr-2 line" aria-hidden="true"></i>რეგისტრაცია</a>
-     	 </li>  
-     	 <li class="nav-item">
-        	<a class="nav-link a-color line" href="#"><i class="fa fa-sign-in mr-2 line" aria-hidden="true"></i>შესვლა</a>
-     	 </li>  
-    	
+      <ul class="navbar-nav last22  margin-left">
+       <li class="nav-item">
+         <div class="search">
+            <div class="form-group position-relative" style="opacity: 2;"" >
+               <input type="seacrh" class="form-control" id="exampleFormControlInput1" style="border: 1px solid #040B3A;border-radius: 20px;background-color: rgba(255, 255, 255, 0)!important;"" >
+               <a href="#" class="position-absolute search-icon"><i class="fa fa-search mt-3" style="opacity:2!important;"></i></a>
+           </div>
+          </div>
+       </li>      
     </ul>
-  </div>
-  
+    <ul class="navbar-nav last22  margin-left ">
+     	 <li class="nav-item">
+        	<a class="nav-link a-color" href="#">შესვლა</a>
+     	 </li>     	
+    </ul>
+  </div> 
   </div>
 </nav>
  </header>
- <div class="container">
-    <div class="search">
-      <div class="form-group position-relative" style="opacity: 2;"" >
-        <input type="seacrh" class="form-control" id="exampleFormControlInput1" style="border: 1px solid #040B3A;border-radius: 20px;background-color: rgba(255, 255, 255, 0)!important;"" >
-        <a href="#" class="position-absolute search-icon"><i class="fa fa-search mt-3" style="opacity:2!important;"></i></a>
-       </div>
-     
-    </div>
-</div>
-<div class="container-fluid">
   <div class="bg">
-    <div class="bg-cover"> 
-    </div>
      <div class="text-center position-relative portalname">
-        <a class="color" href="#" style="opacity:1!important">
-          <h1 >Geo portal</h1>
-          <p >Free education</p>
+          <h1 >ონლაინ სწავლების პორტალი</h1>
         </a>
-      </div>
-      <h2 class="text-light position-absolute main-name px-4">კატეგორიები</h2>
-    <section  Id="category" class="category font-weight-bold row position-relative px-4" >
-      <div class="col-lg-2 col-md-4 col-sm-6">
-        <div class="category1  text-center my-2"><a class="color" href="#"">მობილური პროგრამირება<p class="addtext">(ios & Android)</p></a>
+  </div>
+</div>
+<section  Id="category">
+  <div class="container py-4">
+    <h2 class="color main-name pt-5 text-left ml-4">კატეგორიები</h2>
+    <div class="row my-3">
+      <div class="col-lg-2 col-md-4 col-sm-6 my-5">
+        <div class="category1  text-center"><a class="color" href="#"><i class="fa fa-paint-brush py-4" aria-hidden="true" style="font-size: 70px;"></i><p class="addtext">დიზაინი</p></a>
         </div>
       </div>
-      <div class="col-lg-2 col-md-4 col-sm-6">
-        <div class="category1  text-center my-2"><a class="color" href="#"">პროგრამირება <p class="addtext">(PHP,ASP.NET,MVC)</p></a>
+      <div class="col-lg-2 col-md-4 col-sm-6 my-5">
+        <div class="category1  text-center "><a class="color" href="#""><i class="fa fa-mobile py-4" aria-hidden="true" style="font-size: 70px;"></i><p class="addtext">მობილური პროგრამირება</p></a>
         </div>
       </div>
-      <div class="col-lg-2 col-md-4 col-sm-6 my-2">
-        <div class="category1  text-center"><a class="color" href="#""> Front End <p class="addtext">(HTML,CSS,JAVASCRIPT)</p></a>
+      <div class="col-lg-2 col-md-4 col-sm-6 my-5">
+        <div class="category1  text-center"><a class="color" href="#""><i class="fa fa-spinner py-4" aria-hidden="true" style="font-size: 70px;"></i><p class="addtext"> პროგრამირება</p> </a>
         </div>
       </div>
-      <div class="col-lg-2 col-md-4 col-sm-6 my-2">
-        <div class="category1  text-center"><a class="color" href="#"">დიზაინი<p class="addtext">(ინტერფეისი)</p></a>
+      <div class="col-lg-2 col-md-4 col-sm-6 my-5">
+        <div class="category1  text-center"><a class="color" href="#""><i class="fa fa-code py-4" aria-hidden="true" style="font-size: 70px;"></i><p class="addtext">Front end</p></a>
         </div>
       </div>
-      <div class="col-lg-2 col-md-4 col-sm-6 my-2">
-        <div class="category1  text-center"><a class="color" href="#"">თამაშები <p class="addtext">(Unity 3D)</p></a>
+      <div class="col-lg-2 col-md-4 col-sm-6 my-5">
+        <div class="category1  text-center"><a class="color" href="#""><i class="fa fa-gamepad py-4" aria-hidden="true" style="font-size: 70px;"></i><p class="addtext">თამაშების პროგრამირება</p></a>
         </div>
       </div>
-      <div class="col-lg-2 col-md-4 col-sm-6 my-2">
-        <div class="category1  text-center"><a class="color" href="#"">კოდირება <p class="addtext">(C#)</p></a>
+      <div class="col-lg-2 col-md-4 col-sm-6 my-5">
+        <div class="category1  text-center"><a class="color" href="#""><i class="fa fa-code-fork py-4" aria-hidden="true" style="font-size: 70px;"></i><p class="addtext">სოციალური მედია</p> </a>
         </div>
         </div>
       </div> 
     </div>
-  </div>
-</section>
-<section id="about" style="margin-top:-4.5%">
-  <div class="container-fluid">
-    <div class="bg2 position-relative">
-      <!-- <div class="about-us position-absolute">
-       
-      </div>
-      <div class="main-about position-absolute px-4">
-        <h2>ჩვენს შესახებ</h2>
-        <p></p>
-      </div> -->
     </div>
   </div>
 </section>
+<hr>
+<section id="">
+  <div class="container my-5">
+    animation
+  </div>
+</section>
+<footer>
+  <hr>
+  <div class="container py-4">
+    <div class="footer d-flex justify-content-between  main-name">
+      <a class="a-color" href="#"><h1>logo</h1></a>
+      <a class="a-color" href="#"><h1>ჩვენს შესახებ</h1></a>
+   </div> 
+    <div class=" d-flex justify-content-between color">
+      <div class="contact mt-5 font-weight-bold">
+        <p>5xx xx xx xx</p>
+        <p>Geoportal@01.edu.ge</p>
+      </div>
+      <div class="copyright color mt-5 font-weight-bold">
+        <p class="text-white">.</p>
+        <p>Copyright</p>
+      </div>
+    </div>
+    <div class=" d-flex justify-content-between color">
+      <hr class="hr ml-0">
+       <div class="social">
+        <a class="color mx-3" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a class="color mx-3" href="#"><i class="fa fa-at" aria-hidden="true"></i></a>
+        <a class="color mx-3" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      </div>
+      <hr class="hr mr-0">
+    </div>
+  </div>
+</footer>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="js/bootstrap.js"></script>
