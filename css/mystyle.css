@@ -4,7 +4,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 990px;
+	height: 590px;
 	width: 100%;
 	margin-top:5%;
 	position: relative;
@@ -139,17 +139,6 @@ hr{
 		background-color:inherit;
 		border-radius: 0px;
  	}  
-
-
 }
-@media (max-width: 770px){
-	.category1:hover{
-	 opacity: 1;
-	 border-radius:20px;
-	 transform: scale(1.0,1.0);
-	 font-size: 20px;	
-	}
-}
-
 
 
