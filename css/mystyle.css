@@ -9,7 +9,7 @@
 	margin-top:5%;
 	position: relative;
 }
-/*.bg2{
+.bg2{
 	background-image: url('../img/animation.gif');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -19,7 +19,7 @@
 	margin-top:5%;
 	position: relative;
 }
-*/
+
 .portalname{
 	top:50%;
 	left: 0;
