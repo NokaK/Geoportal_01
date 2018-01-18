@@ -59,7 +59,7 @@
 }
 .right-side {
 	top:0%;
-	right: 6%;
+
 	
 }
 /*.search{
@@ -162,10 +162,11 @@ hr{
 	white-space: nowrap;
 }
 .icon-footer {
-	width: 25px;
+	width: 35px;
 }
-.second {
-	width: 50px;
+.video {
+	background-color: #20205E;
+
 }
 /*footer*/
 
