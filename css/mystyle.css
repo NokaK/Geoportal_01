@@ -152,8 +152,8 @@ hr{
 }
 .hr{
 	width: 30%;
-	border-style: inset;
-	border-width: 1.5px;
+	border-style:solid;
+	border-width: 2px;
 }
 
 /*footer*/
@@ -162,7 +162,13 @@ hr{
 	white-space: nowrap;
 }
 .icon-footer {
-	width: 35px;
+	width: 45px;
+	border:1px solid #040B3A;
+	border-radius: 10px;
+	padding: 5px;
+}
+.second {
+	width: 45px;
 }
 .video {
 	background-color: #20205E;
