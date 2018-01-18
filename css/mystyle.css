@@ -169,9 +169,15 @@ hr{
 }
 .second {
 	width: 45px;
+	border:1px solid #040B3A;
+	border-radius: 10px;
+
 }
 .video {
 	background-color: #20205E;
+
+}
+.video-item {
 
 }
 /*footer*/
@@ -226,4 +232,5 @@ hr{
 	.bg {
  		margin-top: 16%;
  	}
+ 
 }
