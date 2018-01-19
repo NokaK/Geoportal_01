@@ -139,7 +139,7 @@
 /* category section */
 
 hr{
-	background-color:  #08084C;
+	background-color:  #20205E;
  	display: block;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -161,7 +161,7 @@ hr{
 }
 .icon-footer {
 	width: 45px;
-	border:1px solid #040B3A;
+	border:1px solid #20205E;
 	border-radius: 10px;
 	padding: 5px;
 }
@@ -175,8 +175,15 @@ hr{
 	background-color: #20205E;
 
 }
-.video-item {
-
+.item-text {
+  color:#20205E;
+  font-family: "BPG Arial Caps", sans-serif;
+  background-color:#ffffff;	
+  font-weight: 600;
+  padding: 7px 17px;
+  margin: 0 auto;
+  border-radius: 10px;
+  white-space: nowrap;
 }
 /*footer*/
 
