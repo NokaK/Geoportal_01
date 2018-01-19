@@ -40,12 +40,12 @@
 
 }*/
  .a-color{
- 	color:#041448;
+ 	color:#20205E;
 
  }
  .a-color:hover {
  	color: #ffffff;
- 	background:#041448;
+ 	background:#20205E;
  	opacity: 0.9;
  	border-radius: 20px;
  }
@@ -54,7 +54,7 @@
 }
 .burger:hover {
 	color: #ffffff;
- 	background:#041448;
+ 	background:#20205E;
  	opacity: 0.9;
 }
 .right-side1 {
@@ -70,25 +70,25 @@
 .search1{
 	width: 200px;
 	height: 30px;
-	color:#040B3A;
+	color:#20205E;
 	display: none;
 
 
 }
 .search-icon{
-	color:#040B3A;
+	color:#20205E;
 	font-size: 18px;
 	right: 13%;
 }
 .enter {
 	padding: 5px;
-	color:#040B3A;
+	color:#20205E;
 	font-size: 13px;
 	text-decoration: none;
 }
 .enter:hover{
 	color: #ffffff;
- 	background:#041448;
+ 	background:#20205E;
  	opacity: 0.9;
  	border-radius: 20px;
  	padding: 5px;
@@ -118,10 +118,10 @@
 }
 .color{
 	font-family: "BPG Arial Caps", sans-serif;
-	color: #08084C;
+	color: #20205E;
 }
 .color:hover{
-	color:  #08084C;
+	color:  #20205E;
 	text-decoration: none;
 }
 .icon {
@@ -167,7 +167,7 @@ hr{
 }
 .second {
 	width: 45px;
-	border:1px solid #040B3A;
+	border:1px solid #20205E;
 	border-radius: 10px;
 
 }
