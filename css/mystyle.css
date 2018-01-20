@@ -9,12 +9,13 @@
 	margin-top:5.5%;
 	position: relative;
 }
-.bg2{
-	background-image: url('../img/animation.gif');
+.bg-2{
+	background-image: url('../img/bg-2.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 482px;
+	margin-top:5.5%;
+	height: 300px;
 	position: relative;
 }
 
