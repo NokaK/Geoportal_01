@@ -18,6 +18,10 @@
 	height: 300px;
 	position: relative;
 }
+.bg-3{
+	background-color:#EFEFF4;
+
+}
 
 .portalname{
 	top:50%;
@@ -182,6 +186,7 @@ hr{
   background-color:#ffffff;	
   font-weight: 600;
   padding: 7px 17px;
+  margin-top: -5px;
   border-radius: 10px;
   white-space: nowrap;
 }
