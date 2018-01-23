@@ -191,7 +191,12 @@ hr{
   white-space: nowrap;
 }
 /*footer*/
+.caret {
+	font-size: 30px;
+	font-family: "BPG Arial Caps", sans-serif;
+	cursor: pointer;
 
+}
 /* media*/
 
 @media (max-width: 1125px){
