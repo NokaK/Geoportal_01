@@ -35,7 +35,7 @@ $(document).on('ready', function() {
         dots: true,
         infinite: true,
         slidesToShow: 4,
-        slidesToScroll: 4
+        slidesToScroll: 1
       });
       $(".center").slick({
         dots: true,
