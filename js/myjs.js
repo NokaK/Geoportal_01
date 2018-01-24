@@ -44,6 +44,7 @@ $(document).on('ready', function() {
         slidesToShow: 5,
         slidesToScroll: 3
       });
+
       $(".variable").slick({
         dots: true,
         infinite: true,
@@ -54,3 +55,26 @@ $(document).on('ready', function() {
         infinite: true
       });
     });
+
+
+// $(window).resize(function(){
+
+//        if ($(window).width() <= 991) {  
+//         $(".regular").slick({
+//         dots: true,
+//         infinite: true,
+//         slidesToShow: 2,
+//         slidesToScroll: 1
+//       });
+
+//        }    
+//        else {
+//         $(".regular").slick({
+//         dots: true,
+//         infinite: true,
+//         slidesToShow: 4,
+//         slidesToScroll: 1
+//       });
+//        } 
+
+// });
