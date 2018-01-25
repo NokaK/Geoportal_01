@@ -157,7 +157,12 @@ hr{
 	border-style:solid;
 	border-width: 2px;
 }
-
+.hr1{
+	width: 200px;
+	border-style:solid;
+	border-width: 2px;
+	display: none;
+}
 /*footer*/
 .social {
 	font-size: 20%;
@@ -251,16 +256,23 @@ hr{
  		font-size: 25px;
  	}
  	.icon{
+ 		border:1px solid #20205E;
+		border-radius: 10px;
+		padding: 3px;
  		width: 135px
+
  	}
  	.responsive-category1{
- 		padding-top: 10%;
+ 		padding-top: 12%;
  	}
  	.last{
  		padding-bottom: 13%!important;
  	}
  	.category1:hover{
  		transform: scale(1.0,1.0);
+ 	}
+ 	.hr1{
+ 		display: block;
  	}
 }
 
