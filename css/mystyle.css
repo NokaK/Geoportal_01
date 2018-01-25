@@ -19,8 +19,14 @@
 	position: relative;
 }
 .bg-3{
+	background-color:rgba(255, 255, 255, 0.7);
+	
+}
+.bg-4{
 	background-color:#EFEFF4;
-
+}
+.bg-5{
+	background-color:rgba(13, 13, 37, 0.7)
 }
 
 .portalname{
@@ -236,7 +242,7 @@ hr{
 	}
 	.right-side1{
 		 display: block;
-		 text-align: right;
+		 padding-left: 50%;
 	}
 	.a-color{
 		margin:1.5% 0;
