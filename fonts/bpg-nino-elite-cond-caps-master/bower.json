@@ -1,0 +1,28 @@
+{
+  "name": "bpg-nino-elite-cond-caps",
+  "description": "BPG Nino Elite Cond Caps Web-Font Package",
+  "version": "1.0.0",
+  "keywords": ["ttf", "woff", "woff2", "svg", "font", "web-font", "bpg-nino-elite-cond-caps"],
+  "main": [
+    "css/bpg-nino-elite-cond-caps.css"
+  ],
+  "homepage": "https://github.com/web-fonts/bpg-nino-elite-cond-caps",
+  "authors": [
+    "Lado Lomidze <lado.lomidze@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/web-fonts/bpg-nino-elite-cond-caps.git"
+  },
+  "license": ["MIT", "CC-BY-NC-ND-4.0"],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "*.md",
+    "font.json",
+    "package.json"
+  ]
+}

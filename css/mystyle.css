@@ -18,6 +18,7 @@
 	height: 300px;
 	position: relative;
 }
+
 .bg-3{
 	background-color:rgba(255, 255, 255, 0.7);
 	
@@ -28,6 +29,7 @@
 .bg-5{
 	background-color:rgba(13, 13, 37, 0.7)
 }
+
 
 .portalname{
 	top:50%;
@@ -163,12 +165,12 @@ hr{
 	border-style:solid;
 	border-width: 2px;
 }
-.hr1{
+/*.hr1{
 	width: 200px;
 	border-style:solid;
 	border-width: 2px;
 	display: none;
-}
+}*/
 /*footer*/
 .social {
 	font-size: 20%;
@@ -221,6 +223,49 @@ hr{
 	background-color: #d7d7dc!important;
 }
 
+
+/*about page*/
+
+.aboutbg{
+	background-image: url('../img/aboutbg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-top:6%;
+	height: 300px;
+	position: relative;
+}
+.aboutpic{
+	width: 300px;
+	transform: translate(0%,40%);
+}
+.abouttext{
+	font-family: "BPG Nino Elite Cond Caps", sans-serif;
+	color: #20205E;
+	font-weight: 600;
+	word-wrap: break-word;
+	font-size: 20px;
+
+}
+
+/*about page*/
+
+/*blog page*/
+.blogbg{
+	background-image: url('../img/blogbg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-top:6%;
+	height: 300px;
+	position: relative;
+}
+
+
+
+
+/*blog page*/
+
 /* media*/
 
 @media (max-width: 1125px){
@@ -257,19 +302,18 @@ hr{
  	}
  	.bg-2{
  		margin-top:8%;
- 	}
- 	.add-text{
- 		font-size: 25px;
+ 	}	
+ 	.blogbg{
+ 		margin-top:8%;
  	}
  	.icon{
  		border:1px solid #20205E;
 		border-radius: 10px;
 		padding: 3px;
  		width: 135px
-
  	}
  	.responsive-category1{
- 		padding-top: 12%;
+ 		padding-top: 15%;
  	}
  	.last{
  		padding-bottom: 13%!important;
@@ -286,15 +330,22 @@ hr{
 	.bg {
  		margin-top: 13%;
  	}
- 		.bg-2{
+ 	.bg-2{
  		margin-top:12%;
  	}
+ 	.blogbg{
+ 		margin-top:12%;
+ 	}
+
 }
 @media (max-width: 590px) {
 	.bg {
  		margin-top: 16%;
  	}
  	.bg-2{
+ 		margin-top:15%;
+ 	}
+ 	.blogbg{
  		margin-top:15%;
  	}
  
