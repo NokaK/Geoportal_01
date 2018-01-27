@@ -260,8 +260,9 @@ hr{
 	height: 300px;
 	position: relative;
 }
-
-
+.socpic img{
+	width: 300px;
+}
 
 
 /*blog page*/
