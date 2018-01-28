@@ -30,7 +30,10 @@
 .bg-5{
 	background-color:rgba(13, 13, 37, 0.6)
 }
-
+.bg-6{
+	background-color: #ffffff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.17);
+}
 
 .portalname{
 	top:50%;
@@ -365,11 +368,6 @@ hr{
  	.blogbg{
  		margin-top:12%;
  	}
- 	 .nopadding {
-   padding-top: 0 !important;
-   padding-bottom: : 0 !important;
-
-}
  	
 }
 @media (max-width: 590px) {
