@@ -263,9 +263,28 @@ hr{
 .socpic img{
 	width: 300px;
 }
-
+.morecontent span {
+    display: none;
+}
+.width{
+	width:300px;
+}
 
 /*blog page*/
+
+/*design page*/
+.designbg{
+	background-image: url('../img/designbg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-top:6%;
+	height: 300px;
+	position: relative;
+}
+
+
+/*design page*/
 
 /* media*/
 
