@@ -20,14 +20,15 @@
 }
 
 .bg-3{
-	background-color:rgba(255, 255, 255, 0.7);
+	background-color:rgba(255, 255, 255, 0.6);
 	
 }
+
 .bg-4{
 	background-color:#EFEFF4;
 }
 .bg-5{
-	background-color:rgba(13, 13, 37, 0.7)
+	background-color:rgba(13, 13, 37, 0.6)
 }
 
 
@@ -260,6 +261,14 @@ hr{
 	height: 300px;
 	position: relative;
 }
+.compbg{
+	background-image: url('../img/aboutcompbg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 650px;
+	position: relative;
+}
 .socpic img{
 	width: 300px;
 }
@@ -356,7 +365,12 @@ hr{
  	.blogbg{
  		margin-top:12%;
  	}
+ 	 .nopadding {
+   padding-top: 0 !important;
+   padding-bottom: : 0 !important;
 
+}
+ 	
 }
 @media (max-width: 590px) {
 	.bg {
