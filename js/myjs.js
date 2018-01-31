@@ -56,6 +56,21 @@ $(document).on('ready', function() {
       });
     });
 
+$(function(){
+
+        $('#search').click(function() {
+          var clicks = $(this).data('clicks');
+          if (clicks) {
+            closeNav()
+          } else {
+             openNav()
+          }
+          $(this).data("clicks", !clicks);
+        });
+
+    
+
+        });
 
 // $(window).resize(function(){
 

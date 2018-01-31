@@ -34,7 +34,12 @@
 	background-color: #ffffff;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 3px 10px 0 rgba(0, 0, 0, 0.05);
 }
-
+.size {
+	 box-sizing: border-box;
+	 border-radius:10px;
+	 padding: 0 10px;
+	 width: 100px;
+}
 .portalname{
 	top:50%;
 	left: 0;
@@ -76,20 +81,20 @@
 .right-side1 {
 	display: none;
 }
-/*.search{
-	width: 170px;
-	height: 30px;
-	color:#040B3A;
-	display: inline-block;
-
-}*/
-.search1{
-	width: 200px;
-	height: 30px;
-	color:#20205E;
-	display: none;
-
-
+.search-div {
+	height: 71px;
+    position: absolute;
+    z-index: 999999;
+    width: 100%;
+    background-color: #fff;
+    display: none;
+}
+.search-div input.search-input {
+    font-size: 14px;
+}
+.search-div button.close-search-div {
+    font-size: 44px;
+    font-weight: lighter;
 }
 .search-icon{
 	color:#20205E;
@@ -147,10 +152,13 @@
 
 .addtext{
 	text-align: center;
-	font-size: 15px;
-	white-space: nowrap;
+	font-size: 14px;
+	word-break: break-word;
+    word-spacing: 20px; 
+} 
 
 }
+
 /* category section */
 
 hr{
@@ -272,8 +280,11 @@ hr{
 	position: relative;
 }
 
-.socpic img{
-	width: 100%;
+.socpic {
+	float: right;
+	width: 500px;
+
+	display: block;
 }
 
 /*blog page*/
@@ -315,7 +326,9 @@ hr{
 		height: 100px;
 		padding:20px 4px;
 	}
-	
+	.padding-bottom{
+		padding-bottom: 70px;
+	}
 }
 
 @media (max-width: 991px){
