@@ -186,7 +186,7 @@ hr{
 .social {
 	font-size: 20%;
 	white-space: nowrap;
-	margin
+
 }
 .icon-footer {
 	width: 45px;
@@ -280,11 +280,9 @@ hr{
 	position: relative;
 }
 
-.socpic {
-	float: right;
-	width: 500px;
-
-	display: block;
+.pic {
+	max-width:540px;
+	width: 100%;
 }
 
 /*blog page*/
@@ -377,6 +375,10 @@ hr{
  	.hr1{
  		display: block;
  	}
+ 	.pic {
+	max-width:400px;
+	width: 100%;
+	}
 }
 
 @media (max-width: 740px){
@@ -389,7 +391,10 @@ hr{
  	.blogbg{
  		margin-top:12%;
  	}
- 	
+ 	.pic {
+	max-width:500px;
+	width: 100%;
+	}
 }
 @media (max-width: 590px) {
 	.bg {
