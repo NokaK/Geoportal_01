@@ -20,7 +20,7 @@
 }
 
 .bg-3{
-	background-color:rgba(255, 255, 255, 0.6);
+	background-color:rgba(255, 255, 255, 0.5);
 	
 }
 
@@ -266,11 +266,11 @@ hr{
 
 }
 .compbg{
-	background-image: url('../img/aboutcompbg.jpg');
+	background-image: url('../img/aboutcompbg.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 650px;
+	height: 900px;
 	position: relative;
 }
 
@@ -288,7 +288,7 @@ hr{
 }
 
 .pic {
-	max-width:540px;
+	max-width:300px;
 	width: 100%;
 }
 
@@ -310,7 +310,7 @@ hr{
 
 /*coding page*/
 .codingbg{
-	background-image: url('../img/coding.png');
+	background-image: url('../img/coding.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -383,7 +383,7 @@ hr{
  		display: block;
  	}
  	.pic {
-	max-width:400px;
+	max-width:250px;
 	width: 100%;
 	}
 }
