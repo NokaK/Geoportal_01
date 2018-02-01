@@ -81,20 +81,26 @@
 .right-side1 {
 	display: none;
 }
+
 .search-div {
-	height: 71px;
+    /* height: 72px; */
+    left: 20%;
+    top: 27%;
+     width: 450px;
     position: absolute;
-    z-index: 999999;
-    width: 100%;
-    background-color: #fff;
-    display: none;
+    z-index: 2;
+
+   background-color:rgba(255, 255, 255, 0.8);
+    display: block;
 }
 .search-div input.search-input {
-    font-size: 14px;
+    font-size: 16px;
+    height: 35px;
+    width: 450px;
 }
 .search-div button.close-search-div {
-    font-size: 44px;
-    font-weight: lighter;
+    font-size: 35px;
+    position: absolute;
 }
 .search-icon{
 	color:#20205E;
@@ -304,12 +310,12 @@ hr{
 
 /*coding page*/
 .codingbg{
-	background-image: url('../img/coding.jpg');
+	background-image: url('../img/coding.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	margin-top:6%;
-	height: 360px;
+	height: 300px;
 	position: relative;
 }
 
