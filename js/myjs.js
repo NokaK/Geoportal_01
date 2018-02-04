@@ -53,7 +53,6 @@ $(document).on('ready', function() {
           }
         ]
       });
-
       $(".center").slick({
         dots: true,
         infinite: true,
@@ -61,7 +60,6 @@ $(document).on('ready', function() {
         slidesToShow: 5,
         slidesToScroll: 3
       });
-
       $(".variable").slick({
         dots: true,
         infinite: true,
@@ -72,13 +70,9 @@ $(document).on('ready', function() {
         infinite: true
       });
     });
-
- 
   $('.search-icon').click(function(){
     $('.search').toggle();
   })
-
-
-
-
-
+    $('.search-icon1').click(function(){
+    $('.search1').toggle();
+  })
