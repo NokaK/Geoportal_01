@@ -1,4 +1,5 @@
 /*bg main  classes */
+
 .bg{
 	background-image: url('../img/back.jpg');
 	background-repeat: no-repeat;
@@ -6,7 +7,7 @@
 	background-position: center;
 	height: 590px;
 	width: 100%;
-	margin-top:6%;
+	margin-top:4%;
 	position: relative;
 }
 .bg-2{
@@ -18,7 +19,6 @@
 	height: 300px;
 	position: relative;
 }
-
 .bg-3{
 	background-color:rgba(255, 255, 255, 0.5);
 	
@@ -65,7 +65,6 @@
  	color: #ffffff;
  	background:#20205E;
  	opacity: 0.9;
- 	border-radius: 20px;
  }
 .burger {
 	color:#040B3A;
@@ -168,6 +167,9 @@
 	width: 85px;
 
 }
+
+/* category section */
+
 /*video section */
 
 
@@ -177,29 +179,8 @@
 
 /*video section */
 
-/* category section */
 
-hr{
-	background-color:  #20205E;
- 	display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-}
-.hr{
-	width: 30%;
-	border-style:solid;
-	border-width: 2px;
-}
-/*.hr1{
-	width: 200px;
-	border-style:solid;
-	border-width: 2px;
-	display: none;
-}*/
+
 /*footer*/
 .social {
 	font-size: 20%;
@@ -221,7 +202,6 @@ hr{
 .item-text {
   color:#20205E;
   font-family: "BPG Arial Caps", sans-serif;
-  background-color:#ffffff;	
   font-weight: 600;
   padding: 7px 17px;
   margin-top: -6px;
@@ -329,6 +309,10 @@ hr{
 /* media*/
 
 @media (max-width: 1125px){
+	.bg{
+		margin-top: 5%;
+
+	}
 	.category1{
 		font-size:13px;
 		word-wrap: break-word;
@@ -386,9 +370,6 @@ hr{
 		padding: 3px;
  		width: 135px
  	}
- /*	.icon:hover .addtext{
- 		word-spacing: 10px;
- 	}*/
  	.addtext{
  		margin-top: 5px;
  		word-spacing: 5px;
@@ -411,16 +392,21 @@ hr{
 		width: 100%;
 	}
 }
+@media (max-width: 900px){
+	.bg{
+		margin-top: 9%;
+	}
+}
 
 @media (max-width: 740px){
 	.bg {
- 		margin-top: 13%;
+ 		margin-top: 11%;
  	}
  	.bg-2{
  		margin-top:12%;
  	}
  	.blogbg{
- 		margin-top:12%;
+ 		margin-:12%;
  	}
  	.pic {
 		max-width:500px;
@@ -429,7 +415,7 @@ hr{
 }
 @media (max-width: 590px) {
 	.bg {
- 		margin-top: 16%;
+ 		margin-top: 13%;
  	}
  	.bg-2{
  		margin-top:15%;
