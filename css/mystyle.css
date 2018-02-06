@@ -127,12 +127,12 @@
 
 /* category section */
 .main-name{
-	font-family:"BPG Arial Caps", sans-serif;
+	font-family:"BPG Arial", sans-serif;
 	font-weight: 700;
 }
 
 .category1 {
-	font-family: "BPG Arial Caps", sans-serif;
+	font-family:"BPG Arial", sans-serif;
 	font-weight: 700;
 	cursor:pointer;
 	transition: transform .3s;
@@ -155,7 +155,7 @@
 } 
 
 .color{
-	font-family: "BPG Arial Caps", sans-serif;
+	font-family: "BPG Arial", sans-serif;
 	color: #20205E;
 }
 .color:hover{
@@ -201,7 +201,7 @@
 
 .item-text {
   color:#20205E;
-  font-family: "BPG Arial Caps", sans-serif;
+  font-family: "BPG Arial", sans-serif;
   font-weight: 600;
   padding: 7px 17px;
   margin-top: -6px;
@@ -214,12 +214,12 @@
 /*about page*/
 .caret {
 	font-size: 20px;
-	font-family: "BPG Arial Caps", sans-serif;
+	font-family: "BPG Arial", sans-serif;
 	cursor: pointer;
 }
 .drop{
 	opacity: 0.9;
-	font-family: "BPG Arial Caps", sans-serif;
+	font-family: "BPG Arial", sans-serif;
 }
 .drop-item{
 	color: #20205E !important;
@@ -243,7 +243,7 @@
 	transform: translate(0%,40%);
 }
 .abouttext{
-	font-family: "BPG Nino Elite Cond Caps", sans-serif;
+	font-family: "BPG Arial", sans-serif;
 	color: #20205E;
 	font-weight: 600;
 	word-wrap: break-word;
@@ -423,4 +423,11 @@
  	.blogbg{
  		margin-top:15%;
  	}
+}
+@media (max-width: 320px) {
+		.right-side1{
+
+	    top: 4%;
+	    right:30%;
+	}
 }
