@@ -325,6 +325,11 @@
 }
 
 @media (max-width: 991px){
+
+	.right-side1{
+ 	    margin-left: 428px;
+ 	}
+
 	.margin-left.last22{
 		margin-left: 0!important;
 	}
@@ -333,8 +338,7 @@
 	}
 	.right-side1{
 		display: block;
-	    position: fixed;
-	    top: 4%;
+	   /* position: fixed;*/
 	    right: 25%;
 	}
 	.search1{
@@ -396,6 +400,8 @@
 	.bg{
 		margin-top: 9%;
 	}
+
+
 }
 
 @media (max-width: 740px){
@@ -412,6 +418,7 @@
 		max-width:500px;
 		width: 100%;
 	}
+
 }
 @media (max-width: 590px) {
 	.bg {
@@ -423,10 +430,14 @@
  	.blogbg{
  		margin-top:15%;
  	}
+
+ 	
 }
+
+
+
 @media (max-width: 320px) {
 		.right-side1{
-
 	    top: 4%;
 	    right:30%;
 	}
