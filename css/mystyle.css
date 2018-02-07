@@ -7,7 +7,7 @@
 	background-position: center;
 	height: 590px;
 	width: 100%;
-	margin-top:4%;
+	margin-top:4.2%;
 	position: relative;
 }
 .bg-2{
@@ -45,7 +45,7 @@
 
 /* navigation */
 .portalname{
-	top:70%;
+	top:67%;
 	left: 0;
 	z-index: 4;	
 	font-family: "BPG Arial Caps", sans-serif;
@@ -151,7 +151,6 @@
 	word-break: break-word;
     word-spacing: 50px;
     opacity: 0; 
-    margin-top: -15px;
     padding-bottom: 15px;
 } 
 
@@ -339,8 +338,9 @@
 	}
 	.right-side1{
 		display: block;
-	   /* position: fixed;*/
+	    position: fixed;
 	    right: 25%;
+	    top: 4%;
 	}
 	.search1{
 		width: 320px;
