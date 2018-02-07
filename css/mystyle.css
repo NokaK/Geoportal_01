@@ -333,10 +333,6 @@
 
 @media (max-width: 991px){
 
-	.right-side1{
- 	    margin-left: 428px;
- 	}
-
 	.margin-left.last22{
 		margin-left: 0!important;
 	}
@@ -345,9 +341,9 @@
 	}
 	.right-side1{
 		display: block;
-	    position: fixed;
-	    right: 25%;
-	    top: 4%;
+/*	    position: fixed;*/
+		 padding-left: 46%;
+	    /*top: 4%;*/
 	}
 	.search1{
 		width: 320px;
