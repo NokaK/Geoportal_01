@@ -45,12 +45,13 @@
 
 /* navigation */
 .portalname{
-	top:50%;
+	top:70%;
 	left: 0;
 	z-index: 4;	
 	font-family: "BPG Arial Caps", sans-serif;
 	color:#ffffff;
 	line-height: 1.6;
+	font-weight: 600;
 }
 .nav-color {
 	font-family: "BPG Arial Caps", sans-serif;
