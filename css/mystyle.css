@@ -15,7 +15,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	margin-top:6%;
+	margin-top:4.2%;
 	height: 300px;
 	position: relative;
 }
@@ -188,14 +188,6 @@
 }
 .icon-footer {
 	width: 35px;
-	border:1px solid #20205E;
-	border-radius: 10px;
-	padding: 5px;
-}
-.second {
-	width: 35px;
-	border:1px solid #20205E;
-	border-radius: 10px;
 
 }
 
@@ -285,7 +277,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	margin-top:6%;
+	margin-top:4.2%;
 	height: 300px;
 	position: relative;
 }
@@ -298,13 +290,28 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	margin-top:6%;
+	margin-top:4.2%;
 	height: 300px;
 	position: relative;
 }
 
 
 /*coding page*/
+
+
+/*mob page*/
+.mobbg{
+	background-image: url('../img/mobbg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-top:4.2%;
+	height: 300px;
+	position: relative;
+}
+
+
+/*mob page*/
 
 /* media*/
 
