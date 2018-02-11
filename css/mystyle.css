@@ -77,6 +77,7 @@
 }
 .right-side1 {
 	display: none;
+
 }
 .search{
 	width: 320px;
@@ -109,7 +110,6 @@
 	cursor: pointer;
 }
 .enter {
-	padding: 5px;
 	color:#20205E;
 	font-size: 13px;
 	text-decoration: none;
@@ -346,14 +346,14 @@
 	.right-side1{
 		display: block;
 /*	    position: fixed;*/
-		 padding-left: 46%;
+
 	    /*top: 4%;*/
 	}
 	.search1{
 		width: 320px;
 		padding: 15px;
 		top: 100%;
-		right: 16%;
+		right: 12%;
 		position: absolute;
 		background-color:rgba(255, 255, 255, 0.8);
 		display: none;
@@ -434,6 +434,9 @@
 		max-width:500px;
 		width: 100%;
 	}
+	 	.portalname h2{
+		font-size: 1.5rem;
+	}
 
 }
 @media (max-width: 590px) {
@@ -450,14 +453,13 @@
  		margin-top:15%;
  	}
 
- 	
+ 	.portalname h2{
+		font-size: 1.5rem;
+	}
 }
 
 
 
-@media (max-width: 320px) {
-		.right-side1{
-	    top: 4%;
-	    right:30%;
-	}
+@media (max-width: 465px) {
+
 }
