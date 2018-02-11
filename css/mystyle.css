@@ -1,7 +1,7 @@
 /*bg main  classes */
 
 .bg{
-	background-image: url('../img/back.jpg');
+	background-image: url('../img/back.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -194,10 +194,12 @@
   color:#20205E;
   font-family: "BPG Arial", sans-serif;
   font-weight: 600;
-  padding: 7px 17px;
+  padding: 7px 0px;
   margin-top: -6px;
   border-radius: 10px;
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; 
 }
 /*footer*/
 
@@ -319,6 +321,9 @@
 		margin-top: 5%;
 
 	}
+	.mobbg{
+		margin-top: 5%;
+	}
 	.category1{
 		font-size:13px;
 		word-wrap: break-word;
@@ -365,11 +370,14 @@
  	.bg {
  		margin-top: 8%;
  	}
+ 	.mobbg{
+		margin-top: 8%;
+	}
  	.bg-2{
  		margin-top:8%;
  	}	
  	.blogbg{
- 		margin-top:8%;
+ 		margin-top:10%;
  	}
  	.icon{
  		border:1px solid #20205E;
@@ -403,7 +411,9 @@
 	.bg{
 		margin-top: 9%;
 	}
-
+	 .mobbg{
+		margin-top: 9%;
+	}
 
 }
 
@@ -411,11 +421,14 @@
 	.bg {
  		margin-top: 11%;
  	}
+ 	 .mobbg{
+		margin-top: 11%;
+	}
  	.bg-2{
  		margin-top:12%;
  	}
  	.blogbg{
- 		margin-:12%;
+ 		margin-top:12%;
  	}
  	.pic {
 		max-width:500px;
@@ -427,6 +440,9 @@
 	.bg {
  		margin-top: 13%;
  	}
+ 	 .mobbg{
+		margin-top: 13%;
+	}
  	.bg-2{
  		margin-top:15%;
  	}
