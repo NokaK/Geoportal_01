@@ -161,12 +161,22 @@
 	color:  #20205E;
 	text-decoration: none;
 }
-.icon {
+.cube {
 	margin: auto;
 	width: 85px;
-
 }
-
+.icon {
+	width: 60px;
+	transform: translate(-47%,-115%);
+}
+.icon1{
+	width: 25px;
+	transform: translate(-50%,-125%);
+}
+.icon4{
+	width: 47px;
+	transform: translate(-50%,-125%);
+}
 /* category section */
 
 /*video section */
@@ -379,17 +389,31 @@
  	.blogbg{
  		margin-top:10%;
  	}
- 	.icon{
+ 	.cube{
  		border:1px solid #20205E;
 		border-radius: 10px;
 		padding: 3px;
- 		width: 135px
+ 		width: 135px;
  	}
+ 	.icon{
+		padding: 3px;
+ 		width: 70px;
+ 	}
+ 	.icon1{
+ 		padding: 5px;
+ 		width: 50px;
+ 	}
+ 	.icon4{
+		width: 7px;
+		transform: translate(-50%,-125%);
+}
  	.addtext{
+ 		font-size:18px;
  		margin-top: 5px;
  		word-spacing: 5px;
  		white-space: nowrap;
  	}
+
  	.responsive-category1{
  		padding-top: 15%;
  	}
