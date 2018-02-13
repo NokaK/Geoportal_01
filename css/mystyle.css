@@ -47,7 +47,9 @@
 
 
 .ml1 {
-	transform: translate(0%,1100%);
+	
+	
+	transform: translate(0%,1110%);
 	font-family: "BPG Arial Caps", sans-serif;
   	font-weight: 600;
   	color: #20205E;
@@ -366,9 +368,9 @@
 	}
 	.right-side1{
 		display: block;
+		margin-left: 50%;
 /*	    position: fixed;*/
 
-	    /*top: 4%;*/
 	}
 	.search1{
 		width: 320px;
@@ -479,13 +481,32 @@
  	.blogbg{
  		margin-top:15%;
  	}
+ 	.right-side1{
+		display: block;
+		margin-left: 0%;
+/*	    position: fixed;*/
 
- 	.portalname h2{
-		font-size: 1.5rem;
 	}
+ 	.ml1{
+		font-size: 1.5rem;
+		transform: translate(0%,1550%);
+	}
+
+	.responsive-category1 {
+    padding-top: 20%;
+}
+
 }
 
 
-@media (max-width: 465px) {
-
+@media (max-width: 300px) {
+		.bg {
+ 		margin-top: 17%;
+ 	}
+ 		.right-side1{
+		display: none;
+	}
+   body{
+   	overflow-x: hidden;
+   }
 }

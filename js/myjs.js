@@ -18,7 +18,7 @@ anime.timeline({loop: true})
     opacity: [0,1],
     translateZ: 0,
     easing: "easeOutExpo",
-    duration: 600,
+    duration: 1200,
     delay: function(el, i) {
       return 70 * (i+1)
     }
@@ -27,7 +27,7 @@ anime.timeline({loop: true})
     scaleX: [0,1],
     opacity: [0.5,1],
     easing: "easeOutExpo",
-    duration: 700,
+    duration: 1200,
     offset: '-=875',
     delay: function(el, i, l) {
       return 80 * (l - i);
@@ -35,7 +35,7 @@ anime.timeline({loop: true})
   }).add({
     targets: '.ml1',
     opacity: 0,
-    duration: 1000,
+    duration: 1200,
     easing: "easeOutExpo",
-    delay: 1000
+    delay: 1200
   });
