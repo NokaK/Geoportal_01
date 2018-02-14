@@ -252,15 +252,7 @@
 .drop-item:hover {
 	background-color: #d7d7dc!important;
 }
-.aboutbg{
-	background-image: url('../img/aboutbg.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	margin-top:6%;
-	height: 300px;
-	position: relative;
-}
+
 .aboutpic{
 	width: 300px;
 	transform: translate(0%,40%);
@@ -422,11 +414,9 @@
  	}
 
  	.responsive-category1{
- 		padding-top: 15%;
+ 		padding-bottom:12%;
  	}
- 	.last{
- 		padding-bottom: 13%!important;
- 	}
+
  	.category1:hover{
  		transform: scale(1.0,1.0);
  	}
@@ -465,7 +455,9 @@
 		max-width:500px;
 		width: 100%;
 	}
-
+	 .responsive-category1{
+ 		padding-bottom:15%;
+ 	}
 
 }
 @media (max-width: 590px) {
@@ -491,21 +483,32 @@
 		font-size: 1.5rem;
 		transform: translate(0%,1550%);
 	}
+	.cube {
+		width: 120px;
+	}
 
 	.responsive-category1 {
-    padding-top: 20%;
+    padding-bottom: 12%;
 }
 
 }
-
-
-@media (max-width: 300px) {
-		.bg {
- 		margin-top: 17%;
- 	}
- 		.right-side1{
+@media (max-width: 430px){
+		.ml1{
 		display: none;
 	}
+		.responsive-category1 {
+    padding-bottom: 17%;
+}
+}
+
+@media (max-width: 300px) {
+	.bg {
+ 		margin-top: 17%;
+ 	}
+ 	.right-side1{
+		display: none;
+	}
+
    body{
    	overflow-x: hidden;
    }
