@@ -36,19 +36,7 @@
 	color:  #20205E;
 	font-family: "BPG Arial Caps", sans-serif;
   	font-weight: 600;
-   float: right;
-	  white-space: nowrap;
-	  overflow: hidden;
-	  width: 30em;
-	  animation: type 10s steps(1000, end); 
-}
-@keyframes type{ 
-  from { width: 0; } 
-} 
 
-
-@keyframes blink{
-  to{opacity: .0;}
 }
 
 .nav-color {
@@ -121,7 +109,7 @@
 	text-decoration: none;
 }
 
-/* navigation */
+/* navigation 
 
 
 /* category section */
@@ -279,8 +267,8 @@
 /*design page*/
 
 /*coding page*/
-.codingbg{
-	background-image: url('../img/coding.jpg');
+#codingbg{
+	background-image: url('../img/codingbg.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
