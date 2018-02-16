@@ -36,8 +36,13 @@
 	color:  #20205E;
 	font-family: "BPG Arial Caps", sans-serif;
   	font-weight: 600;
-
+   float: right;
+	  white-space: nowrap;
+	  overflow: hidden;
+	  width: 30em;
+	  animation: type 10s steps(1000, end); 
 }
+
 
 .nav-color {
 	font-family: "BPG Arial Caps", sans-serif;
@@ -109,7 +114,7 @@
 	text-decoration: none;
 }
 
-/* navigation 
+/* navigation */
 
 
 /* category section */
