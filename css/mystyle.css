@@ -7,7 +7,7 @@
 	background-position: center;
 	height: 590px;
 	width: 100%;
-	margin-top:4.2%;
+	margin-top:4.3%;
 	position: relative;
 }
 .bg-3{
@@ -32,6 +32,11 @@
 /*bg main classes */
 
 /* navigation */
+.logo{
+	max-width: 50px;
+	width: 100%;
+
+}
 .portalname{
 	color:  #20205E;
 	font-family: "BPG Arial Caps", sans-serif;
@@ -211,7 +216,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	margin-top:4.2%;
+	margin-top:4.3%;
 	height: 350px;
 	position: relative;
 }
@@ -233,10 +238,7 @@
 	background-color: #d7d7dc!important;
 }
 
-.aboutpic{
-	width: 300px;
-	transform: translate(0%,40%);
-}
+
 .abouttext{
 	font-family: "BPG Arial", sans-serif;
 	color: #20205E;
@@ -255,7 +257,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	margin-top:4.2%;
+	margin-top:4.3%;
 	height: 350px;
 	position: relative;
 }
@@ -273,7 +275,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	margin-top:4.2%;
+	margin-top:4.3%;
 	height: 350px;
 	position: relative;
 }
@@ -286,7 +288,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	margin-top:4.2%;
+	margin-top:4.3%;
 	height: 350px;
 	position: relative;
 }
@@ -301,7 +303,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	margin-top:4.2%;
+	margin-top:4.3%;
 	height: 350px;
 	position: relative;
 }
@@ -316,7 +318,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	margin-top:4.2%;
+	margin-top:4.3%;
 	height: 350px;
 	position: relative;
 }
@@ -330,7 +332,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	margin-top:4.2%;
+	margin-top:4.3%;
 	height: 350px;
 	position: relative;
 }
@@ -346,7 +348,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	margin-top:4.2%;
+	margin-top:4.3%;
 	height: 350px;
 	position: relative;
 }
@@ -453,6 +455,7 @@
 }
 
 @media (max-width: 740px){
+	body{}
 	.custom-margin {
  		margin-top: 11% !important;
  	}
