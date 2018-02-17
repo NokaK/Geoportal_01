@@ -206,6 +206,15 @@
 
 
 /*about page*/
+#aboutbg{
+	background-image: url('../img/aboutbg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-top:4.2%;
+	height: 350px;
+	position: relative;
+}
 .caret {
 	font-size: 20px;
 	font-family: "BPG Arial", sans-serif;
@@ -241,13 +250,13 @@
 /*about page*/
 
 /*blog page*/
-.blogbg{
+#blogbg{
 	background-image: url('../img/blogbg.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	margin-top:6%;
-	height: 330px;
+	margin-top:4.2%;
+	height: 350px;
 	position: relative;
 }
 
@@ -313,7 +322,38 @@
 }
 
 
-/*ebpage*/
+/*web page*/
+
+/*games page*/
+#gamebg{
+	background-image: url('../img/gamesbg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-top:4.2%;
+	height: 350px;
+	position: relative;
+}
+
+
+/*games page*/
+
+
+
+/*socmedia page*/
+#socmediabg{
+	background-image: url('../img/socmediabg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-top:4.2%;
+	height: 350px;
+	position: relative;
+}
+
+
+/*socmedia page*/
+
 
 /* media*/
 
